@@ -1,0 +1,58 @@
+/* Reset some basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header & Footer Styles */
+header, footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Main content */
+main, aside {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: bold;
+    display: block;
+    margin: 5px 0;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}

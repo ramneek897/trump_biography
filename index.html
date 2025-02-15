@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Donald Trump's biography and career">
+    <meta name="keywords" content="Donald Trump, Biography, U.S. President, Business">
+    <title>Donald Trump - Life & Career</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Name: Ramneek Singh -->
+    <!-- Student Number: 9027485 -->
+
+    <header>
+        <h1>Donald Trump</h1>
+    </header>
+
+    <main>
+        
+        <section id="biography">
+            <h2>Biography</h2>
+            <blockquote cite="https://www.whitehouse.gov/about-the-white-house/presidents/donald-trump/">
+                Donald J. Trump is the 45th and 47th president of the United States, serving from 2017 to 2021. 
+                He was a businessman and television personality before becoming President.
+            </blockquote>
+        </section>
+
+        <section id="quotes">
+            <h2>Famous Quote</h2>
+            <p><q cite="https://www.brainyquote.com/authors/donald-trump-quotes">Sometimes by losing a battle, you find a new way to win the war.</q></p>
+            <cite>- Donald Trump</cite>
+        </section>
+
+        <section id="image">
+            <h2>Image of Donald Trump</h2>
+            <figure>
+                <img src="images/trump.jpg" alt="Donald Trump speaking at a rally">
+                <figcaption>Donald Trump addressing a crowd.</figcaption>
+            </figure>
+        </section>
+
+        <section id="video">
+            <h2>Speech Video</h2>
+            <video width="400" controls>
+                <source src="video/trump_speech.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+    </main>
+
+    <aside>
+        <section id="resources">
+            <h2>More Information</h2>
+            <ul>
+                <li><a href="https://www.donaldjtrump.com/" target="_blank" title="Official Website">Donald Trump Official Website</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Donald_Trump" target="_blank" title="Donald Trump's Wikipedia">Wikipedia</a></li>
+                <li><a href="https://www.whitehouse.gov/about-the-white-house/presidents/donald-trump/" target="_blank" title="White House Biography">White House Bio</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name" class="form-label">Full Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required placeholder="Your name">
+
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required placeholder="Your email">
+
+                <label for="message" class="form-label">Your Message:</label>
+                <textarea id="message" name="message" class="form-control" required></textarea>
+
+                <label for="topic" class="form-label">Topic:</label>
+                <select id="topic" name="topic" class="form-control">
+                    <option value="biography">Biography</option>
+                    <option value="quotes">Quotes</option>
+                    <option value="business">Business</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Ramneek Singh</p>
+    </footer>
+
+</body>
+</html>
